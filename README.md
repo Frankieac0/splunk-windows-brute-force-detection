@@ -97,3 +97,39 @@ Trigger Condition:
 Frank Coleman
 
 Cybersecurity Student | SOC Analyst Candidate
+## Project Evidence
+
+### Windows Security Logs Successfully Ingested
+
+See screenshot:
+screenshots/queries/Raw Windows Security Events Successfully Ingested into Splunk.png
+
+### Failed Login Events Filtered by EventCode 4625
+
+See screenshot:
+screenshots/queries/Windows Security Failed Authentication Events Filtered by EventCode 4625.png
+
+### Failed Login Attempts by Account Name
+
+See screenshot:
+screenshots/queries/Failed Login Attempt Counts by Account Name in Splunk.png
+
+### Correlated Failed Login Attempts by Account Name and Host
+
+See screenshot:
+screenshots/queries/Correlated Failed Login Attempts by Account Name and Host.png
+
+### Detection Threshold Exceeded
+
+See screenshot:
+screenshots/queries/Failed Login Attempts Exceeding Brute Force Detection Threshold.png
+
+### Alert Configuration
+
+See screenshots:
+
+screenshots/queries/Initial Scheduled Alert Configuration for Brute Force Detection.png
+
+screenshots/queries/Final Configuration of Scheduled Brute Force Detection Alert.png
+
+screenshots/queries/Successful Creation of Brute Force Login Detection Alert in Splunk.png
